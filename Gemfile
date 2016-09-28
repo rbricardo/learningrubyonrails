@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 # Use font awesome for icons
 gem 'font-awesome-sass', '4.6.2'
 
+gem 'devise', '4.2.0'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
