@@ -26,13 +26,19 @@ gem 'bootstrap-sass', '3.3.6'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+#gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use font awesome for icons
 gem 'font-awesome-sass', '4.6.2'
 
 gem 'devise', '4.2.0'
+
+# Use stripe for handling payments
+gem 'stripe', '1.55.0'
+
+#Use figaro to hide secrets keys
+gem 'figaro', '1.0.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
